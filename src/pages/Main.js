@@ -1,14 +1,10 @@
 import React from 'react';
-import {
-  Routes,
-  Route,
-} from "react-router-dom";
-import Header from "../layouts/Header";
-import Headquarter from "../container/Headquarter";
-import Store from "../container/Store";
-import Constractor from "../container/Constractor";
-import Error from "./Error";
-
+import { Routes, Route } from 'react-router-dom';
+import Header from '../layouts/Header';
+import Headquarter from '../container/Headquarter';
+import Store from '../container/Store';
+import Constractor from '../container/Constractor';
+import Error from './Error';
 
 const Main = () => {
   return (

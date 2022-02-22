@@ -29,6 +29,7 @@ const ButtonSet = styled.button`
         `;
       case "text" :
         return css`
+          background: none;
           color: #0365FF;
           font-size: 16px;
         `;
