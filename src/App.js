@@ -1,11 +1,8 @@
 import React from 'react';
-import {
-  Routes,
-  Route,
-} from "react-router-dom";
+import { Routes, Route } from 'react-router-dom';
 import GlobalStyles from './js/GlobalStyles';
-import Body from "./layouts/Body";
-import Login from "./pages/Login";
+import Body from './layouts/Body';
+import Login from './pages/Login';
 import Main from './pages/Main';
 import Tabbar from './layouts/Tabbar';
 
